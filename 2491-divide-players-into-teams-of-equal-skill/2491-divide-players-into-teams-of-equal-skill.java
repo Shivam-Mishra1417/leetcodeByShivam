@@ -5,15 +5,12 @@ class Solution {
 	    	sum+=skill[i];   		
 	    	}
 	    	int target = sum/((skill.length)/2);
-	    	System.out.println("The target is "+target);
+	    	//System.out.println("The target is "+target);
 	    	
-	    	for(int i=0;i<skill.length;i++) {
-	    		if(skill[i] > target)
-	    			return -1;
-	    	}
+	    	
 	    	
 	    	Arrays.sort(skill);
-	    	
+	    	if(skill[skill.length-1]>target) return -1;
 	    	int l=0,r=skill.length-1;
 	    	long res=0;
 	    	
