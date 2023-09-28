@@ -5,14 +5,20 @@ class Solution {
 	 
 	 public static int bs(int[] arr, int l, int r) {
 		 
-		 if(l>=r) return arr[l];
+		 while(l<r) {
+			 int m = l+(r-l)/2;
+			 
+			 if(arr[m] > arr[r])
+			 {
+				 l = m+1;
+				 
+			 }
+			 else {
+				 r = m;
+			 }
+		 }
 		 
-		 int m = l + (r-l)/2;
-		 
-		 if(arr[r] < arr[m])
-			 return bs(arr,m+1,r);
-		 else
-			 return bs(arr,l,m);
-		 
+		 return arr[l];
 	 }
+
 }
