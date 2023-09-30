@@ -33,9 +33,13 @@ class Solution {
 	       }
 	       
 	       n1.retainAll(n2);
-	       return n1.stream()
-	    		   .mapToInt(Integer::intValue)
-	    		   .toArray();  
+	       int [] arr = new int[n1.size()];
+           int j=0;
+            for(int i:n1){
+                arr[j++] = i;
+            }
+	        
+            return arr;  
 
 	    }
 }
