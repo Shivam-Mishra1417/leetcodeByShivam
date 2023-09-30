@@ -9,7 +9,7 @@ class Solution {
 	       }
 	       
 	       for(int i=0;i<nums2.length;i++) {
-	    	   if(map.containsKey(nums2[i]) && map.getOrDefault(nums2[i], false)) {
+	    	   if(map.getOrDefault(nums2[i], false)) {
 	    		   list.add(nums2[i]);
 	    		   map.put(nums2[i], false);
 	    	   }
