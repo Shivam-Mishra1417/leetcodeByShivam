@@ -3,15 +3,11 @@ class Solution {
 		String res = "", tmp = " ";
 		for (int i = 0; i < s.length(); i++) {
 			int index = s.length() - 1;
-
 			if (!(s.charAt(index-i) == ' '))
 				tmp += s.charAt(index-i);
 			else {
-				// System.out.println(tmp);
-
-				res = tmp + res;
-
-				tmp = " ";
+			res = tmp + res;
+            tmp = " ";
 
 			}
 		}
