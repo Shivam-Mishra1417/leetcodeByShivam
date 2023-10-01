@@ -8,12 +8,8 @@ class Solution {
                 tmp +=s.substring(index-i,index-i+1);
             else
              {
-                System.out.println(tmp);
-                // if(one){
-                //  res = tmp+ res;
-                //  one=false;   
-                // }
-                //  else
+                //System.out.println(tmp);
+                
                  res = tmp+ res;
 
                  tmp=" ";
