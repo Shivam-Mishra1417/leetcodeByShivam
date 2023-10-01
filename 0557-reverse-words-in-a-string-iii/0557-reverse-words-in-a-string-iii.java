@@ -5,7 +5,7 @@ class Solution {
 			int index = s.length() - 1;
 
 			if (!(s.charAt(index-i) == ' '))
-				tmp += s.substring(index - i, index - i + 1);
+				tmp += s.charAt(index-i);
 			else {
 				// System.out.println(tmp);
 
