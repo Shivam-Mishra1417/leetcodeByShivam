@@ -1,6 +1,6 @@
 class Solution {
     public String reverseWords(String s) {
-        String res="", tmp=" "; boolean one=true;
+        String res="", tmp=" ";
         for(int i=0;i<s.length();i++){
             int index = s.length()-1;
 
