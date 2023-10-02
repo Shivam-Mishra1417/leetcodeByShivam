@@ -9,16 +9,14 @@
 
 public class Solution extends GuessGame {
     public int guessNumber(int n) {
-       int l = n,r=n; 
+       int l = n; 
        if(guess(n)==0) return n;
        while(guess(l)!=1){
            l=l/2;
        }
-       while(guess(r)!=-1){
-           r=r*2;
-       }
-       System.out.println(l+" "+r);
-       return bs(l,r);
+      
+       //System.out.println(l+" "+r);
+       return bs(l,n);
     }
 
     public int bs(int l, int r){
