@@ -21,7 +21,7 @@ class Solution {
             // if(bo.equals(s)) b++;
           //  System.out.println(s);
         }
-        System.out.println(a+"  "+b);
+       // System.out.println(a+"  "+b);
         if(a>b) return true;
         return false;
     }
