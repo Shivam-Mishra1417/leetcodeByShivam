@@ -10,7 +10,7 @@ class Solution {
             else
             left[i] = prices[i-1];
         }
-        System.out.println(Arrays.toString(left));
+       // System.out.println(Arrays.toString(left));
         int max=prices[prices.length-1], diff=Integer.MIN_VALUE;
 
         for(int i=left.length-1;i>=0;i--){
