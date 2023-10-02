@@ -12,7 +12,6 @@ class Solution {
             }
             else
                 tmp=1;
-            
             prev = colors.charAt(i);
             // String s = colors.substring(i,i+3);
             // if(s.equals(al)) a++;
@@ -21,6 +20,6 @@ class Solution {
         }
        // System.out.println(a+"  "+b);
         if(a>b) return true;
-        return false;
+        return false; 
     }
 }
