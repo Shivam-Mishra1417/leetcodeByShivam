@@ -4,13 +4,14 @@ class Solution {
         // HashMap<Character, Integer> map = new HashMap<>();
         HashSet<Character> set = new HashSet<>();
          for(int i=0;i<s.length();i++){
-             if(set.contains(s.charAt(i)))
+             Character c = s.charAt(i);
+             if(set.contains(c))
              {
                  res+=2;
-                 set.remove(s.charAt(i));
+                 set.remove(c);
              }
              else{
-                 set.add(s.charAt(i));
+                 set.add(c);
              }
              //map.put(s.charAt(i), map.getOrDefault(s.charAt(i),0)+1);
          }
