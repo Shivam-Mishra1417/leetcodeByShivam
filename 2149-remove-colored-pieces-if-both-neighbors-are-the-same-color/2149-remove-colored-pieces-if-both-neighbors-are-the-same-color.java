@@ -7,7 +7,7 @@ class Solution {
             String s = colors.substring(i,i+3);
             if(s.equals(al)) a++;
             if(bo.equals(s)) b++;
-            System.out.println(s);
+          //  System.out.println(s);
         }
         if(a>b) return true;
         return false;
