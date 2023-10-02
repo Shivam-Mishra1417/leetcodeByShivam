@@ -1,6 +1,6 @@
 class Solution {
     public boolean canConstruct(String ransomNote, String magazine) {
-        
+        if (ransomNote.length() > magazine.length()) return false;
         int[] mag = new int[26];
 
         for(int i=0;i<magazine.length();i++){
@@ -10,7 +10,6 @@ class Solution {
         for(int i=0;i<ransomNote.length();i++){
             if(mag[ransomNote.charAt(i) - 'a']<1)
             return false;
-            else
             mag[ransomNote.charAt(i) - 'a']--;
         }
         return true;
