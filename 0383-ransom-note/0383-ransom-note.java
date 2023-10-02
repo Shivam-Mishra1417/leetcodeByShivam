@@ -8,9 +8,10 @@ class Solution {
         }
 
         for(int i=0;i<ransomNote.length();i++){
-            if(mag[ransomNote.charAt(i) - 'a']<1)
+            char c = ransomNote.charAt(i);
+            if(mag[c - 'a']<1)
             return false;
-            mag[ransomNote.charAt(i) - 'a']--;
+            mag[c - 'a']--;
         }
         return true;
     }
