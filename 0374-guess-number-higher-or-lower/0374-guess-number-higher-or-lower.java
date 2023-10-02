@@ -9,7 +9,6 @@
 
 public class Solution extends GuessGame {
     public int guessNumber(int n) {
-       // n = 2147483647;
        int l = n,r=n; 
        if(guess(n)==0) return n;
        while(guess(l)!=1){
