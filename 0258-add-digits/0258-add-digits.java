@@ -4,7 +4,7 @@ class Solution {
         
         while(Math.floor(Math.log10(num))+1 > 1){
           num = sum(num);
-          System.out.println(" num = "+num);
+        //  System.out.println(" num = "+num);
         }
 
         return num;
