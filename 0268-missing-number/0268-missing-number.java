@@ -3,8 +3,7 @@ class Solution {
          int l = nums.length;
         int sum=(l*(l+1))/2;
         for(int x:nums)
-        sum-=x;
-       
+         sum-=x;
         return sum;
     }
 }
