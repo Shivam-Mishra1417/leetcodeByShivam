@@ -9,7 +9,7 @@ class Solution {
             int t = x%10;
             res = res*10 + t;
             x = x/10;
-            System.out.println(res);
+            //System.out.println(res);
         }
         
         if(res>Integer.MAX_VALUE)
