@@ -17,7 +17,7 @@ class Solution {
             head = head.next;
 
         }
-        System.out.println("string = > "+s);
+        //System.out.println("string = > "+s);
         int l = s.length();
         for(int i=0;i<l/2;i++){
             if(s.charAt(i) != s.charAt(l-1-i))
