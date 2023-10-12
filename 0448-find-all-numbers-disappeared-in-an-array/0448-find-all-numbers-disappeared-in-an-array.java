@@ -17,7 +17,7 @@ class Solution {
             if(nums[i] != i+1)
             list.add(i+1);
         }
-        System.out.println(ct);
+       // System.out.println(ct);
         return list;
     }
 }
