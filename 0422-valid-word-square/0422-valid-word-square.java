@@ -7,13 +7,10 @@ class Solution {
             for(int j=0;j<words.size();j++){
                 if(i<words.get(j).length()){
                    b += ""+words.get(j).charAt(i); 
-                }
-                   
+                }   
             }
-            if(!a.equals(b)) {
-            System.out.println(a+"  "+b);
+            if(!a.equals(b)) 
             return false;
-            }
         }
         return true;
     }
