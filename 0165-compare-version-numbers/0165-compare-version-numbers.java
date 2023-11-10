@@ -1,6 +1,6 @@
 class Solution {
     public int compareVersion(String version1, String version2) {
-         System.out.println(version1+"  <==>  "+version1);
+         //System.out.println(version1+"  <==>  "+version1);
         String[] v1 = version1.split("[^0-9]");
         String[] v2 = version2.split("[^0-9]");
         //System.out.println(Arrays.toString(v1));
