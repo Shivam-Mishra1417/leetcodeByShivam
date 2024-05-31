@@ -1,31 +1,29 @@
 class Solution {
     public int minimumAddedInteger(int[] nums1, int[] nums2) {
         int ans=Integer.MAX_VALUE;
+        Arrays.sort(nums1);
         Arrays.sort(nums2);
         for(int i=0;i<nums1.length;i++){
             for(int j=i+1;j<nums1.length;j++){
-
-              int[] nums11 = new int[nums1.length-2];
-              int index=0;
-              for(int k=0;k<nums1.length;k++){
-                if(k!=i && k!=j){
-                    nums11[index] = nums1[k];
-                    index++;
+              boolean flag = false, flag2=true;
+              int index1=0,index2=0,tmpDiff=0;
+              for(int x=0;x<nums1.length;x++){
+                if(x!=i && x!=j){
+                if(!flag){
+                tmpDiff = nums2[index2] - nums1[x];
+                flag = true;
                 }
-              }  
-
-              Arrays.sort(nums11);
-              int diff = nums2[0] - nums11[0];
-              boolean flag = true;
-              for(int x=1;x<nums11.length;x++){
-                if(nums2[x]-nums11[x]!=diff){
+                else if(nums2[index2]-nums1[x]!=tmpDiff){
                     flag = false;
+                    flag2=false;
                     break;
+                }
+                index2++;
                 }
               }
 
-              if(flag && ans>diff)
-                ans = diff;
+              if(flag2 && ans>tmpDiff)
+                ans = tmpDiff;
                     
             }
         }
