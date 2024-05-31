@@ -5,8 +5,7 @@ class Solution {
         String s = Integer.toBinaryString(n-1);
         String xs = Integer.toBinaryString(x);
         char[] xc = xs.toCharArray();
-        int l = xs.replaceAll("1","").length();
-
+        int l   = xs.length()-Integer.bitCount(x);
         int tmp = (s.length() - l);
         
         if(tmp<0){
