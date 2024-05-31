@@ -1,7 +1,7 @@
 class Solution {
     public long minEnd(int n, int x) {
         
-       // if(n==1) return (long)x;
+        if(n==1) return (long)x;
         String s = Integer.toBinaryString(n-1);
         String xs = Integer.toBinaryString(x);
        // char[] xc = xs.toCharArray();
