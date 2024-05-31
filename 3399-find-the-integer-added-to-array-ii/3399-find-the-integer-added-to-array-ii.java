@@ -8,6 +8,7 @@ class Solution {
                 boolean flag = false, flag2 = true;
                 int index2 = 0, tmpDiff = 0;
                 for (int x = 0; x < nums1.length; x++) {
+                    
                     if (x != i && x != j) {
                         if (!flag) {
                             tmpDiff = nums2[index2] - nums1[x];
