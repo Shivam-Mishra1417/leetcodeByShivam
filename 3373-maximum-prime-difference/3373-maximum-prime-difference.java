@@ -1,5 +1,6 @@
 class Solution {
-    public int maximumPrimeDifference(int[] nums) {
+    HashSet<Integer> prime = new HashSet<>();
+    Solution(){
         boolean[] pn = new boolean[101];
         Arrays.fill(pn,true);
         pn[0] = false;
@@ -8,10 +9,13 @@ class Solution {
             for(int j=2;i*j<=100;j++)
                 pn[i*j]=false;
         }
-        HashSet<Integer> prime = new HashSet<>();
+        
         for(int i=0;i<pn.length;i++)
             if(pn[i])
              prime.add(i);
+    }
+    public int maximumPrimeDifference(int[] nums) {
+        
 
        // System.out.println(prime);
         int l=0,r=0;
