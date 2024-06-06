@@ -5,20 +5,15 @@ class Solution {
         Arrays.fill(pn,true);
         pn[0] = false;
         pn[1] = false;
-       // for(int i=2;i<=10;i++){
-            for(int j=2;j<=50;j++){
-              if(2*j<=100)  pn[2*j]=false;
-              if(3*j<=100)  pn[3*j]=false;
-              if(5*j<=100)  pn[5*j]=false;
-              if(7*j<=100)  pn[7*j]=false;
-
-
+        for(int i=2;i<=10;i++){
+            for(int j=2;i*j<=100;j++)
+                pn[i*j]=false;
         } 
         for(int i=0;i<pn.length;i++)
             if(pn[i])
              prime.add(i);
     }
-
+    
     public int maximumPrimeDifference(int[] nums) {
 
         int l=0,r=0;
