@@ -4,9 +4,13 @@ class Solution {
         x.append(s);
         x.reverse();
 
+        HashSet<String> st = new HashSet<>();
+        for(int i=1;i<x.length();i++){
+            st.add(new String(new char[]{x.charAt(i-1), x.charAt(i)}));
+        }
         for(int i=1;i<s.length();i++){
             String w = ""+s.charAt(i-1)+s.charAt(i);
-            if(x.indexOf(w)!=-1)
+            if(st.contains(w))
                 return true;
         }
         return false; 
