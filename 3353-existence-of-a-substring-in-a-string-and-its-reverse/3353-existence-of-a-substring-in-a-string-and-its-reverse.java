@@ -5,8 +5,8 @@ class Solution {
         x.reverse();
 
         HashSet<String> st = new HashSet<>();
-        for(int i=1;i<x.length();i++){
-            st.add(new String(new char[]{x.charAt(i-1), x.charAt(i)}));
+        for(int i=0;i<x.length()-1;i++){
+            st.add(x.substring(i,i+2));
         }
 
         for(int i=0;i<s.length()-1;i++){
