@@ -8,8 +8,9 @@ class Solution {
         for(int i=1;i<x.length();i++){
             st.add(new String(new char[]{x.charAt(i-1), x.charAt(i)}));
         }
-        for(int i=1;i<s.length();i++){
-            String w = ""+s.charAt(i-1)+s.charAt(i);
+
+        for(int i=0;i<s.length()-1;i++){
+            String w = s.substring(i,i+2); 
             if(st.contains(w))
                 return true;
         }
