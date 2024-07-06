@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0069-sqrtx](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/0069-sqrtx) |
+| [2645-pass-the-pillow](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/2645-pass-the-pillow) |
 ## Binary Search
 |  |
 | ------- |
@@ -21,4 +22,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+## Simulation
+|  |
+| ------- |
+| [2645-pass-the-pillow](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/2645-pass-the-pillow) |
 <!---LeetCode Topics End-->
