@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [1803-average-waiting-time](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/1803-average-waiting-time) |
 ## Greedy
 |  |
 | ------- |
@@ -25,5 +26,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [1803-average-waiting-time](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/1803-average-waiting-time) |
 | [2645-pass-the-pillow](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/2645-pass-the-pillow) |
 <!---LeetCode Topics End-->
