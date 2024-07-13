@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0228-summary-ranges](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/0228-summary-ranges) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1803-average-waiting-time](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/1803-average-waiting-time) |
 ## Greedy
