@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/0002-add-two-numbers) |
 | [0069-sqrtx](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/0069-sqrtx) |
 | [2645-pass-the-pillow](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/2645-pass-the-pillow) |
 ## Binary Search
@@ -34,4 +35,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/1496-lucky-numbers-in-a-matrix) |
+## Linked List
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/0002-add-two-numbers) |
+## Recursion
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
