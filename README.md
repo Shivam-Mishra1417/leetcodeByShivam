@@ -43,4 +43,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/0002-add-two-numbers) |
+## Database
+|  |
+| ------- |
+| [0176-second-highest-salary](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/0176-second-highest-salary) |
 <!---LeetCode Topics End-->
