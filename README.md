@@ -47,4 +47,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0176-second-highest-salary](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/0176-second-highest-salary) |
+| [0177-nth-highest-salary](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/0177-nth-highest-salary) |
 <!---LeetCode Topics End-->
