@@ -2,8 +2,8 @@
 
 select department,employee, salary from (
 select d.name as department, e.name as employee, e.salary as salary,
-max(salary) over(partition by e.departmentId) as maxs
+rank() over(partition by e.departmentId order by e.salary desc) as maxs
 from employee e, department d
 where e.departmentId = d.id
 ) as new
-where salary = new.maxs;
+where 1 = new.maxs;
