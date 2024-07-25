@@ -66,4 +66,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2041-the-latest-login-in-2020](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/2041-the-latest-login-in-2020) |
 | [2110-employees-with-missing-information](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/2110-employees-with-missing-information) |
 | [2127-employees-whose-manager-left-the-company](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/2127-employees-whose-manager-left-the-company) |
+| [3530-odd-and-even-transactions](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/3530-odd-and-even-transactions) |
 <!---LeetCode Topics End-->
