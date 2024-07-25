@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0184-department-highest-salary](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/0184-department-highest-salary) |
 | [0185-department-top-three-salaries](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/0185-department-top-three-salaries) |
 | [0262-trips-and-users](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/0262-trips-and-users) |
+| [1480-movie-rating](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/1480-movie-rating) |
 | [1664-find-users-with-valid-e-mails](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/1664-find-users-with-valid-e-mails) |
 | [1773-percentage-of-users-attended-a-contest](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/1773-percentage-of-users-attended-a-contest) |
 | [1801-average-time-of-process-per-machine](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/1801-average-time-of-process-per-machine) |
