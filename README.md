@@ -61,4 +61,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1942-primary-department-for-each-employee](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/1942-primary-department-for-each-employee) |
 | [2024-calculate-special-bonus](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/2024-calculate-special-bonus) |
 | [2041-the-latest-login-in-2020](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/2041-the-latest-login-in-2020) |
+| [2110-employees-with-missing-information](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/2110-employees-with-missing-information) |
 <!---LeetCode Topics End-->
