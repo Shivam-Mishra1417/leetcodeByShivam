@@ -1,23 +1,4 @@
 # Write your MySQL query statement below
--- -- select name as results from users where 
--- -- user_id = (
--- -- select user_id
--- -- from movierating 
--- -- group by 1
--- -- order by count(*) desc
--- -- limit 1 )
-
--- -- union
-
--- select movie_id, avg(rating)
--- from movierating
--- where year(created_at)=2020 and month(created_at)=02
--- group by movie_id
--- order by 2
-
-
-
-
 with movie as(select 
 u.name,m.title, mr.rating, mr.created_at
 from movierating mr, users u, movies m
@@ -39,16 +20,3 @@ group by title
 order by avg(rating) desc, title
 limit 1
 )
-
-
-
-
-
-
-
-
-
-
-
-
-
