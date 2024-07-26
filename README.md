@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0570-managers-with-at-least-5-direct-reports](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/0570-managers-with-at-least-5-direct-reports) |
 | [0601-human-traffic-of-stadium](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/0601-human-traffic-of-stadium) |
 | [1480-movie-rating](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/1480-movie-rating) |
+| [1523-capital-gainloss](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/1523-capital-gainloss) |
 | [1664-find-users-with-valid-e-mails](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/1664-find-users-with-valid-e-mails) |
 | [1773-percentage-of-users-attended-a-contest](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/1773-percentage-of-users-attended-a-contest) |
 | [1801-average-time-of-process-per-machine](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/1801-average-time-of-process-per-machine) |
