@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1803-average-waiting-time](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/1803-average-waiting-time) |
+| [3516-design-neighbor-sum-service](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/3516-design-neighbor-sum-service) |
 ## Greedy
 |  |
 | ------- |
@@ -31,10 +32,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1803-average-waiting-time](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/1803-average-waiting-time) |
 | [2645-pass-the-pillow](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/2645-pass-the-pillow) |
+| [3516-design-neighbor-sum-service](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/3516-design-neighbor-sum-service) |
 ## Matrix
 |  |
 | ------- |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/1496-lucky-numbers-in-a-matrix) |
+| [3516-design-neighbor-sum-service](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/3516-design-neighbor-sum-service) |
 ## Linked List
 |  |
 | ------- |
@@ -73,4 +76,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2110-employees-with-missing-information](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/2110-employees-with-missing-information) |
 | [2127-employees-whose-manager-left-the-company](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/2127-employees-whose-manager-left-the-company) |
 | [3530-odd-and-even-transactions](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/3530-odd-and-even-transactions) |
+## Hash Table
+|  |
+| ------- |
+| [3516-design-neighbor-sum-service](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/3516-design-neighbor-sum-service) |
+## Design
+|  |
+| ------- |
+| [3516-design-neighbor-sum-service](https://github.com/Shivam-Mishra1417/leetcodeByShivam/tree/master/3516-design-neighbor-sum-service) |
 <!---LeetCode Topics End-->
